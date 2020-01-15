@@ -146,9 +146,14 @@ main {
   font-size: 14px;
   color: #6b6b6b;
   margin-top: -1rem;
+  margin-left: 1rem;
+
 }
 .subscribe {
   display: flex;
+}
+.subscribe h5 {
+  margin-left: 1rem;
 }
 .subscribe button {
   color: white;
@@ -157,7 +162,7 @@ main {
   width: 7rem;
   font-size: 13px;
   border-radius: 4px;
-  margin-left: 88%;
+  margin-left: 78%;
   margin-top: 1.5rem;
 }
 .describe {
@@ -166,3 +171,91 @@ main {
   line-height: 1.5em;
   color: black !important;
 }
+
+.comment-section {
+  display: flex;
+}
+
+.comment-section h4 {
+ font-weight: 300;
+}
+
+ .fa-sort-amount-down {
+font-size: 18px;
+color: #6b6b6b;
+margin-left: 10%;
+margin-top: 1.5rem;
+}
+.comment-section h5 {
+ margin-left: 8px;
+ color: #6b6b6b;
+ }
+
+ 
+
+ .comments img {
+   width: 3rem;
+   height: 3rem;
+   border-radius: 50%;
+   
+ }
+
+ .comments input {
+   border: none;
+   border-bottom: 0.2px solid grey;
+   padding: 7px;
+   width: 92%;
+   margin-left: 5px;
+   background: transparent;
+
+ }
+
+ .comments input:focus {
+   outline: none;
+ }
+
+ .comments-post {
+   display: flex;
+   margin-top: 2rem;
+ }
+ .comments-text {
+   margin-left: 1%;
+   /* display: flex; */
+ }
+
+ .comments-text small {
+   margin-left: 5px;
+   font-weight: 300;
+   color: gray;
+ }
+ .comments-text h4 {
+  font-weight: 300;
+  
+}
+.comments-text p {
+  margin-top: -1rem;
+  font-weight: 200;
+  width: 60%;
+}
+
+.comments-post ul {
+  list-style: none;
+  display: flex;
+  margin-left: -2.2rem;
+}
+.comments-post li {
+  padding-right: 1rem;
+  font-size: 15px;
+  color: #6b6b6b;
+  
+}
+
+.fa-caret-down {
+  font-size: 16px;
+  color: #4386de;
+  margin-top: 0;
+}
+
+
+
+ 
