@@ -128,3 +128,41 @@ main {
   width: 5rem;
   font-size: 18px;
 }
+
+.description {
+  display: inline;
+}
+.description img {
+  width: 3rem;
+  border-radius: 50%;
+  display: block;
+}
+.text-desciption {
+  grid-template-columns: [first] 20% [sec] 10% [end];
+  margin-left: 5%;
+  margin-top: -4rem;
+}
+.text-desciption p {
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-top: -1rem;
+}
+.subscribe {
+  display: flex;
+}
+.subscribe button {
+  color: white;
+  background: #cc0000;
+  height: 2.6rem;
+  width: 7rem;
+  font-size: 13px;
+  border-radius: 4px;
+  margin-left: 88%;
+  margin-top: 1.5rem;
+}
+.describe {
+  width: 60%;
+  height: 3em;
+  line-height: 1.5em;
+  color: black !important;
+}
