@@ -4,6 +4,7 @@ body {
 hr {
   opacity: 0.3;
 }
+/* ---------------- Navigation bar ------------------ */
 .container {
   margin-top: 1rem;
   display: grid;
@@ -51,12 +52,14 @@ hr {
   color: #6b6b6b;
   padding-top: 18%;
 }
+/* ---------------- Main Page body------------------ */
 main {
   display: flex;
   margin-left: 15px;
   margin-right: 15px;
   background: #f7f7f7;
 }
+/* ---------------- Embedded video ------------------ */
 .video-section {
   margin-top: 1.5rem;
   float: left;
@@ -66,6 +69,7 @@ main {
   width: 100%;
   height: 70vh;
 }
+/* ---------------- Thumbnails section ------------------ */
 .main-previews {
   float: right;
   width: 25%;
@@ -107,6 +111,7 @@ main {
   float: right;
   margin-top: 5px;
 }
+/* ---------------- Video Details ------------------ */
 .video-data h3 {
   margin-bottom: -1.2rem;
   font-weight: 300;
@@ -114,13 +119,12 @@ main {
 .video-data p {
   color: #6b6b6b;
 }
-.video-icons {
-  display: flex;
-}
+
 .video-icons ul {
-  margin-left: 29vw;
+  margin-left: 34vw;
   color: #6b6b6b;
   margin-right: 0;
+  margin-top: -2rem;
 }
 .video-icons li {
   list-style: none;
@@ -128,7 +132,7 @@ main {
   width: 5rem;
   font-size: 18px;
 }
-
+/* ---------------- Video decription------------------ */
 .description {
   display: inline;
 }
@@ -147,7 +151,6 @@ main {
   color: #6b6b6b;
   margin-top: -1rem;
   margin-left: 1rem;
-
 }
 .subscribe {
   display: flex;
@@ -171,71 +174,65 @@ main {
   line-height: 1.5em;
   color: black !important;
 }
-
+/* ---------------- Comments section ------------------ */
 .comment-section {
   display: flex;
 }
 
 .comment-section h4 {
- font-weight: 300;
+  font-weight: 300;
 }
 
- .fa-sort-amount-down {
-font-size: 18px;
-color: #6b6b6b;
-margin-left: 10%;
-margin-top: 1.5rem;
+.fa-sort-amount-down {
+  font-size: 18px;
+  color: #6b6b6b;
+  margin-left: 10%;
+  margin-top: 1.5rem;
 }
 .comment-section h5 {
- margin-left: 8px;
- color: #6b6b6b;
- }
+  margin-left: 8px;
+  color: #6b6b6b;
+}
 
- 
+.comments img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
 
- .comments img {
-   width: 3rem;
-   height: 3rem;
-   border-radius: 50%;
-   
- }
+.comments input {
+  border: none;
+  border-bottom: 0.2px solid grey;
+  padding: 7px;
+  width: 92%;
+  margin-left: 5px;
+  background: transparent;
+}
 
- .comments input {
-   border: none;
-   border-bottom: 0.2px solid grey;
-   padding: 7px;
-   width: 92%;
-   margin-left: 5px;
-   background: transparent;
+.comments input:focus {
+  outline: none;
+}
 
- }
+.comments-post {
+  display: flex;
+  margin-top: 2rem;
+}
+.comments-text {
+  margin-left: 1%;
+  width: 60%;
+}
 
- .comments input:focus {
-   outline: none;
- }
-
- .comments-post {
-   display: flex;
-   margin-top: 2rem;
- }
- .comments-text {
-   margin-left: 1%;
-   /* display: flex; */
- }
-
- .comments-text small {
-   margin-left: 5px;
-   font-weight: 300;
-   color: gray;
- }
- .comments-text h4 {
+.comments-text small {
+  margin-left: 5px;
   font-weight: 300;
-  
+  color: gray;
+}
+.comments-text h4 {
+  font-weight: 300;
 }
 .comments-text p {
   margin-top: -1rem;
   font-weight: 200;
-  width: 60%;
 }
 
 .comments-post ul {
@@ -247,7 +244,6 @@ margin-top: 1.5rem;
   padding-right: 1rem;
   font-size: 15px;
   color: #6b6b6b;
-  
 }
 
 .fa-caret-down {
@@ -256,6 +252,33 @@ margin-top: 1.5rem;
   margin-top: 0;
 }
 
-
-
- 
+/* ---------------- Footer ------------------ */
+footer ul {
+  display: flex;
+  margin-bottom: -2rem;
+}
+footer img {
+  width: 7rem;
+  margin-top: -1.5rem;
+  margin-left: -2rem;
+}
+footer li {
+  list-style: none;
+  padding: 1rem;
+}
+footer button {
+  width: 100%;
+  height: 2rem;
+  background: #f0f0f0;
+  font-size: 13px;
+}
+.footer-about li {
+  font-size: 14px;
+}
+.footer-small li {
+  font-size: 12px;
+  color: #6b6b6b;
+}
+footer p {
+  margin-top: 8px;
+}
