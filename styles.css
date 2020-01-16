@@ -8,13 +8,22 @@ hr {
 .container {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: [first] 5% [second] 25% [third] auto [col4-start] 3% [line5] 3% [line6] 3% [seven] 3% [end];
+  grid-template-columns: [first] 5% [second] 25% [third] auto [fourth] 15% [end];
 }
 .navbar-brand img {
   width: 6rem;
   height: 5rem;
   margin-top: -1.7rem;
   margin-left: 3rem;
+}
+
+.nav-icons {
+  display: flex;
+}
+.nav-icons img {
+  width: 1.3rem;
+  padding: 0.8rem;
+  opacity: 0.6;
 }
 
 .search input {
@@ -31,13 +40,17 @@ hr {
 
 .btn-search {
   position: absolute;
-  padding: 10px;
   width: 5rem;
   margin-left: -4.7%;
   color: #6b6b6b;
   border-radius: 2px;
   background: #ececec;
+  height: 2.1rem;
 }
+.btn-search img{
+  width: 0.6rem;
+  
+  }
 .btn {
   width: 35px;
   height: 35px;
@@ -46,6 +59,7 @@ hr {
   color: white;
   font-weight: bolder;
   font-size: 18px;
+  margin-top: 5px;
 }
 .icons {
   font-size: 18px;
@@ -121,16 +135,23 @@ main {
 }
 
 .video-icons ul {
-  margin-left: 34vw;
+  margin-left: 40vw;
   color: #6b6b6b;
   margin-right: 0;
   margin-top: -2rem;
+  display: flex;
+  width: 75%;
 }
 .video-icons li {
   list-style: none;
   flex-direction: row;
   width: 5rem;
   font-size: 18px;
+}
+.video-icons img {
+  width: 1.3rem;
+  margin-bottom: -5px;
+  opacity: 0.6;
 }
 /* ---------------- Video decription------------------ */
 .description {
@@ -182,13 +203,14 @@ main {
 .comment-section h4 {
   font-weight: 300;
 }
-
-.fa-sort-amount-down {
-  font-size: 18px;
-  color: #6b6b6b;
-  margin-left: 10%;
+.comment-section img {
+  width: 1.3rem;
+  margin-bottom: -5px;
+  opacity: 0.6;
+  margin-left: 2rem;
   margin-top: 1.5rem;
 }
+
 .comment-section h5 {
   margin-left: 8px;
   color: #6b6b6b;
@@ -220,6 +242,16 @@ main {
 .comments-text {
   margin-left: 1%;
   width: 60%;
+  margin-bottom: 1.8rem;
+}
+.comments-text img {
+  width: 1.3rem;
+  opacity: 0.6;
+  margin-bottom: -1rem;
+
+}
+.comments-text h4 {
+  margin-top: 1.2rem;
 }
 
 .comments-text small {
@@ -229,6 +261,9 @@ main {
 }
 .comments-text h4 {
   font-weight: 300;
+}
+.comments-text h5 {
+  margin-top: -2rem;
 }
 .comments-text p {
   margin-top: -1rem;
@@ -246,22 +281,29 @@ main {
   color: #6b6b6b;
 }
 
-.fa-caret-down {
-  font-size: 16px;
-  color: #4386de;
-  margin-top: 0;
+/* ---------------- Footer ------------------ */
+.footer-group {
+  display: flex;
+  margin-left: 4rem;
+}
+.footer-group img {
+  width: 7rem;
+  margin-left: -2rem;
+  margin-bottom: -1.5rem;
+  
 }
 
-/* ---------------- Footer ------------------ */
 footer ul {
   display: flex;
   margin-bottom: -2rem;
 }
-footer img {
-  width: 7rem;
-  margin-top: -1.5rem;
-  margin-left: -2rem;
+.footer-list img {
+  width: 1.2rem;
+  margin-left: 1px;
+  margin-bottom: 0 !important;
+  opacity: 0.6;
 }
+
 footer li {
   list-style: none;
   padding: 1rem;
@@ -282,3 +324,8 @@ footer button {
 footer p {
   margin-top: 8px;
 }
+
+.menu {
+  width: 1rem;
+}
+
