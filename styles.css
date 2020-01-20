@@ -47,10 +47,9 @@ hr {
   background: #ececec;
   height: 2.1rem;
 }
-.btn-search img{
+.btn-search img {
   width: 0.6rem;
-  
-  }
+}
 .btn {
   width: 35px;
   height: 35px;
@@ -153,6 +152,11 @@ main {
   margin-bottom: -5px;
   opacity: 0.6;
 }
+
+.video-icons a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
 /* ---------------- Video decription------------------ */
 .description {
   display: inline;
@@ -179,6 +183,11 @@ main {
 .subscribe h5 {
   margin-left: 1rem;
 }
+.subscribe a {
+  margin-left: 78%;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
 .subscribe button {
   color: white;
   background: #cc0000;
@@ -186,8 +195,7 @@ main {
   width: 7rem;
   font-size: 13px;
   border-radius: 4px;
-  margin-left: 78%;
-  margin-top: 1.5rem;
+  cursor: pointer;
 }
 .describe {
   width: 60%;
@@ -198,6 +206,9 @@ main {
 /* ---------------- Comments section ------------------ */
 .comment-section {
   display: flex;
+}
+.new-comment {
+  padding-bottom: 4rem;
 }
 
 .comment-section h4 {
@@ -229,6 +240,11 @@ main {
   width: 92%;
   margin-left: 5px;
   background: transparent;
+  transition: 0.25s;
+}
+
+.comments input:focus {
+  border-bottom: 2px solid black;
 }
 
 .comments input:focus {
@@ -248,7 +264,6 @@ main {
   width: 1.3rem;
   opacity: 0.6;
   margin-bottom: -1rem;
-
 }
 .comments-text h4 {
   margin-top: 1.2rem;
@@ -290,7 +305,6 @@ main {
   width: 7rem;
   margin-left: -2rem;
   margin-bottom: -1.5rem;
-  
 }
 
 footer ul {
@@ -328,4 +342,3 @@ footer p {
 .menu {
   width: 1rem;
 }
-
