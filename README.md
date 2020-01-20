@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://nyatindopatrick.github.io/Youtube-clone)
+[Live Demo Link](https://vigorous-knuth-6c8127.netlify.com)
 
 ## Getting Started
 
